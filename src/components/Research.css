@@ -1,0 +1,96 @@
+.research__card {
+  display: flex;
+  gap: 28px;
+  padding: 40px;
+  transition: border-color 0.3s ease;
+}
+
+.research__card:hover {
+  border-color: var(--border-strong);
+}
+
+.research__icon {
+  display: grid;
+  place-items: center;
+  width: 56px;
+  height: 56px;
+  min-width: 56px;
+  border-radius: 16px;
+  background: var(--grad-brand-soft);
+  color: var(--accent);
+  font-size: 1.5rem;
+  border: 1px solid var(--border);
+}
+
+.research__venue {
+  font-family: var(--font-mono);
+  font-size: 0.8rem;
+  color: var(--accent);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.research__body h3 {
+  font-size: 1.4rem;
+  margin: 10px 0 8px;
+  line-height: 1.35;
+}
+
+.research__period {
+  font-family: var(--font-mono);
+  font-size: 0.82rem;
+  color: var(--text-2);
+}
+
+.research__points {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 22px 0 26px;
+}
+
+.research__points li {
+  position: relative;
+  padding-left: 22px;
+  color: var(--text-1);
+  font-size: 0.98rem;
+}
+
+.research__points li::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 9px;
+  width: 8px;
+  height: 8px;
+  border-radius: 2px;
+  background: var(--grad-brand);
+  transform: rotate(45deg);
+}
+
+.research__link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.92rem;
+  font-weight: 500;
+  color: var(--text-0);
+  padding: 10px 18px;
+  border-radius: 999px;
+  border: 1px solid var(--border-strong);
+  transition: all 0.25s ease;
+}
+
+.research__link:hover {
+  border-color: var(--accent);
+  background: var(--accent-soft);
+  color: var(--accent);
+}
+
+@media (max-width: 640px) {
+  .research__card {
+    flex-direction: column;
+    padding: 28px;
+  }
+}
