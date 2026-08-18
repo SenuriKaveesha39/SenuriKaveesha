@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import { motion } from 'framer-motion';
-import { FiArrowDown, FiArrowUpRight } from 'react-icons/fi';
+import { FiArrowDown, FiArrowUpRight, FiDownload } from 'react-icons/fi';
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
 import { profile } from '../data/profile';
 import avatar from '../assets/mypic.jpeg';
@@ -79,6 +79,9 @@ export default function Hero() {
             <button className="btn btn-ghost" onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}>
               Get in touch
             </button>
+            <a className="btn btn-ghost" href="/Senuri-Kaveesha-CV.pdf" download>
+              <FiDownload /> Download CV
+            </a>
             <div className="hero__socials">
               <a href={profile.github} target="_blank" rel="noreferrer" aria-label="GitHub"><FaGithub /></a>
               <a href={profile.linkedin} target="_blank" rel="noreferrer" aria-label="LinkedIn"><FaLinkedinIn /></a>

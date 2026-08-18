@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { FiMail, FiCopy, FiCheck, FiArrowUpRight } from 'react-icons/fi';
+import { FiMail, FiCopy, FiCheck, FiArrowUpRight, FiDownload } from 'react-icons/fi';
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
 import Reveal from './Reveal';
 import { profile } from '../data/profile';
@@ -38,6 +38,9 @@ export default function Contact() {
               {copied ? <FiCheck /> : <FiCopy />}
               {copied ? 'Copied!' : profile.email}
             </button>
+            <a className="btn btn-ghost" href="/Senuri-Kaveesha-CV.pdf" download>
+              <FiDownload /> Download CV
+            </a>
           </div>
 
           <div className="contact__links">
