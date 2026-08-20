@@ -7,7 +7,7 @@ export const profile = {
   github: 'https://github.com/SenuriKaveesha39',
   linkedin: 'https://www.linkedin.com/in/senuri-kaveesha-1a1832215/',
   summary:
-    'Machine Learning Engineer with hands-on experience designing, training, and deploying production-grade ML and LLM-based systems. Strong background in applied ML, NLP, and model optimization, with experience translating complex data problems into scalable solutions. Experienced in end-to-end ML pipelines, model performance optimization, and collaboration with product and engineering teams. Actively working on enterprise AI systems and eager to deepen expertise in finance and tax domain applications.',
+    'Machine Learning Engineer with 2+ years of hands-on experience designing, training, and deploying production-grade ML and LLM-based systems — from RAG pipelines to full-stack AI products, with a growing focus on finance and tax domain applications.',
   roles: [
     'Applied ML Engineer',
     'LLM Systems Builder',
