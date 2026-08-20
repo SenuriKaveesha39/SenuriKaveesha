@@ -122,6 +122,20 @@ export const publications = [
   },
 ];
 
+export const currentResearch = [
+  {
+    title: 'Predicting Semantic Merge Conflicts Before They Happen',
+    status: 'In Progress · 2026',
+    summary:
+      'Exploring an AI system that catches "silent" merge conflicts — cases where two branches each merge cleanly by Git\'s standards, but the combined result quietly breaks behavior that neither branch broke on its own.',
+    points: [
+      "Most existing tools only react after the fact: Git flags a textual conflict, or a semantic break is caught after the merge through tests or CI.",
+      'This work targets the gap before either of those — predicting a likely conflict, explaining the reasoning in plain English, and suggesting a fix while the branches are still separate.',
+      'Reframes the workflow from detect-and-resolve after merge to predict-and-prevent before merge.',
+    ],
+  },
+];
+
 export const projects = [
   {
     title: 'Conversational AI Agent with Continuous Learning',
