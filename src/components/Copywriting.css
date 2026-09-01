@@ -1,0 +1,284 @@
+.copywriting__grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 28px;
+}
+
+.copywriting__card {
+  padding: 32px;
+}
+
+.copywriting__head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+}
+
+.copywriting__type {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--accent);
+}
+
+.copywriting__product {
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: 1.05rem;
+  color: var(--text-0);
+}
+
+.copywriting__context {
+  color: var(--text-2);
+  font-size: 0.88rem;
+  font-style: italic;
+  margin-bottom: 24px;
+}
+
+.copywriting__mock {
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  background: var(--bg-1);
+}
+
+/* --- Landing page mock --- */
+.copywriting__mock--web .copywriting__mock-bar {
+  display: flex;
+  gap: 6px;
+  padding: 12px 16px;
+  border-bottom: 1px solid var(--border);
+  background: var(--bg-2);
+}
+
+.copywriting__mock--web .copywriting__mock-bar span {
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  background: var(--border-strong);
+}
+
+.copywriting__mock-body {
+  padding: 36px 32px;
+  text-align: center;
+}
+
+.copywriting__mock-eyebrow {
+  display: inline-block;
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--accent-2);
+  background: var(--accent-2-soft);
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  padding: 5px 14px;
+  margin-bottom: 18px;
+}
+
+.copywriting__mock-body h3 {
+  font-size: clamp(1.4rem, 2.6vw, 1.9rem);
+  line-height: 1.25;
+  margin-bottom: 14px;
+}
+
+.copywriting__mock-body > p {
+  color: var(--text-1);
+  max-width: 520px;
+  margin: 0 auto 28px;
+  font-size: 0.98rem;
+}
+
+.copywriting__mock-ctas {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 18px;
+  row-gap: 12px;
+  flex-wrap: wrap;
+  margin-bottom: 36px;
+  pointer-events: none;
+}
+
+.copywriting__mock-ctas .btn {
+  font-size: 0.85rem;
+  padding: 11px 22px;
+  white-space: nowrap;
+}
+
+.copywriting__mock-features {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 18px;
+  text-align: left;
+  margin-bottom: 24px;
+}
+
+.copywriting__mock-feature {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  padding: 16px;
+}
+
+.copywriting__mock-feature h4 {
+  font-family: var(--font-display);
+  font-size: 0.92rem;
+  margin-bottom: 6px;
+  color: var(--text-0);
+}
+
+.copywriting__mock-feature p {
+  font-size: 0.85rem;
+  color: var(--text-1);
+}
+
+.copywriting__mock-closer {
+  font-size: 0.85rem;
+  color: var(--text-2);
+  font-family: var(--font-mono);
+}
+
+/* --- Product description mock --- */
+.copywriting__mock--product {
+  padding: 28px 32px;
+}
+
+.copywriting__mock--product h3 {
+  font-size: 1.2rem;
+  margin-bottom: 8px;
+}
+
+.copywriting__mock-tagline {
+  color: var(--accent);
+  font-size: 0.92rem;
+  font-weight: 500;
+  margin-bottom: 16px;
+}
+
+.copywriting__mock--product > p {
+  color: var(--text-1);
+  font-size: 0.95rem;
+  margin-bottom: 20px;
+}
+
+.copywriting__mock-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.copywriting__mock-list li {
+  position: relative;
+  padding-left: 20px;
+  font-size: 0.92rem;
+  color: var(--text-1);
+}
+
+.copywriting__mock-list li strong {
+  color: var(--text-0);
+}
+
+.copywriting__mock-list li::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 8px;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--accent);
+}
+
+/* --- Email mock --- */
+.copywriting__mock--email .copywriting__mock-email-head {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  padding: 16px 24px;
+  border-bottom: 1px solid var(--border);
+  background: var(--bg-2);
+  font-size: 0.88rem;
+}
+
+.copywriting__mock-preview {
+  color: var(--text-2);
+  font-size: 0.82rem;
+}
+
+.copywriting__mock-email-body {
+  padding: 28px 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.copywriting__mock-email-body p {
+  color: var(--text-1);
+  font-size: 0.92rem;
+  white-space: pre-line;
+}
+
+.copywriting__mock-email-cta {
+  align-self: flex-start;
+  font-size: 0.85rem;
+  padding: 10px 20px;
+  pointer-events: none;
+  margin: 4px 0;
+}
+
+.copywriting__mock-ps {
+  font-size: 0.85rem;
+  color: var(--text-2);
+  font-style: italic;
+}
+
+/* --- My approach --- */
+.copywriting__approach {
+  margin-top: 28px;
+  padding: 32px;
+  text-align: center;
+}
+
+.copywriting__approach-label {
+  display: block;
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin-bottom: 14px;
+}
+
+.copywriting__approach p {
+  max-width: 640px;
+  margin: 0 auto;
+  color: var(--text-1);
+  font-size: 1rem;
+}
+
+@media (max-width: 640px) {
+  .copywriting__card {
+    padding: 22px;
+  }
+  .copywriting__mock-body {
+    padding: 28px 20px;
+  }
+  .copywriting__mock-features {
+    grid-template-columns: 1fr;
+  }
+  .copywriting__mock--product,
+  .copywriting__mock-email-body {
+    padding: 22px 18px;
+  }
+}
