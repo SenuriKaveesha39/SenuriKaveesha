@@ -195,6 +195,83 @@ export const projects = [
   },
 ];
 
+export const copywritingSamples = [
+  {
+    type: 'Landing Page',
+    product: 'FlowAI',
+    context: 'Hero and feature section for an AI workflow-automation SaaS. Spec work.',
+    content: {
+      eyebrow: 'Now in public beta',
+      headline: 'Your busywork, automated before your coffee gets cold.',
+      subheadline:
+        'FlowAI watches how your team works, then builds the automations for you — no flowcharts, no dev time, no guesswork.',
+      ctaPrimary: 'Start automating free',
+      ctaSecondary: 'Watch a 2-min demo',
+      features: [
+        {
+          title: 'Set it up in one sentence',
+          body: 'Tell FlowAI what you want automated in plain English. It builds the workflow, you approve it.',
+        },
+        {
+          title: 'Plays well with your stack',
+          body: 'Connects to 40+ tools out of the box, from Slack to Salesforce — no API keys required.',
+        },
+        {
+          title: 'Gets smarter with every run',
+          body: 'FlowAI learns from the edits you make and quietly improves the workflow next time.',
+        },
+      ],
+      closer: "Join 2,400+ teams who stopped doing the same task twice.",
+    },
+  },
+  {
+    type: 'Product Description',
+    product: 'SmartNote AI',
+    context: 'App-store style product page copy for an AI note-taking app. Spec work.',
+    content: {
+      title: 'SmartNote AI — notes that organize themselves',
+      tagline: 'Capture the thought. Let SmartNote handle the rest.',
+      description:
+        "SmartNote AI turns scattered thoughts into structured notes automatically. Speak, type, or paste in a messy brain-dump, and SmartNote tags it, links it to related notes, and files it away before you've finished your sentence. No more digging through 40 untitled notes to find the one idea you actually needed.",
+      features: [
+        {
+          title: 'Auto-tagging & smart folders',
+          body: 'Every note finds its place without you lifting a finger.',
+        },
+        {
+          title: 'Voice-to-structured-note in seconds',
+          body: 'Ramble into your phone, get back a clean summary with action items.',
+        },
+        {
+          title: 'Ask your notes anything',
+          body: "Search by meaning, not just keywords — try 'what did I decide about pricing last month?'",
+        },
+      ],
+      closer: 'Available on iOS, Android, and web. Free to start.',
+    },
+  },
+  {
+    type: 'Marketing Email',
+    product: 'FlowAI',
+    context: 'Day-3 onboarding nudge for trial users who haven’t built an automation yet. Spec work.',
+    content: {
+      subject: "You're one sentence away from your first automation",
+      preview: 'Most FlowAI users save 3+ hours in their first week. Here’s how to get there today.',
+      greeting: 'Hi [First Name],',
+      paragraphs: [
+        "Quick one — you signed up for FlowAI a few days ago but haven't built your first automation yet. That's usually the moment people either become FlowAI power users, or quietly forget we exist. Let's make it the first one.",
+        'Here’s the fastest way in: open FlowAI, type what you want to automate in plain English — something like "send me a Slack message when a high-value deal closes in HubSpot" — and let FlowAI build it. Takes about 90 seconds.',
+      ],
+      cta: 'Build my first automation',
+      signoff: 'If you get stuck, just reply to this email — a real person (not a bot) will help you set it up.\n\n— The FlowAI Team',
+      ps: 'P.S. Teams that automate one workflow in their first week are 4x more likely to stick around. Might as well be you.',
+    },
+  },
+];
+
+export const copywritingApproach =
+  'I focus on clear, audience-first copy that turns technical features into meaningful benefits. My background in AI and software engineering helps me understand complex products quickly and communicate them in language that feels simple, human, and persuasive.';
+
 export const education = {
   degree: 'BSc (Hons) in Information Technology — Specializing in Data Science',
   school: 'Sri Lanka Institute of Information Technology (SLIIT)',
@@ -223,6 +300,7 @@ export const navLinks = [
   { id: 'skills', label: 'Skills' },
   { id: 'experience', label: 'Experience' },
   { id: 'projects', label: 'Projects' },
+  { id: 'copywriting', label: 'Copywriting' },
   { id: 'research', label: 'Research' },
   { id: 'contact', label: 'Contact' },
 ];
